@@ -13,7 +13,7 @@ provider "aws" {
 
 variable "bucketname" {
   type    = string
-  default = "env0-acme-bucket_new"
+  default = "env0-acme-bucket-new"
 }
 
 resource "random_string" "random" {
